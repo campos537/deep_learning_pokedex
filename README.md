@@ -26,6 +26,9 @@ The Pokemons are from the first generation and the ones supported are:
 ` ['Abra','Pikachu','Alakazam','Aerodactyl','Charizard','Bellsprout','Jiglypuff','Kadabra','Charmeleon','Dragonite','Raichu','Magmar','Jigglypuff','Eevee'\
     ,'Vaporeon','Jolteon','Grownlithe','Arcanine','Articuno','Arbok','Ekans','Flareon','Ditto'] `
 
+download the last model here: https://drive.google.com/file/d/1dcTd4vDMvWDuOnagSfHf6bVMY4Iw5yCo/view?usp=sharing
+and copy to `data` folder
+
 ## Usage
 
 To use this repository please follow the steps below:
@@ -36,4 +39,4 @@ python3.7 -m pip install -r requirements
 python pokedex.py
 ```
 
-After that just choose a video and click on the pokeball icon, if no video is choose the webcam will be used (also works with images)
+After that just choose a video (also works with images) and click on the pokeball icon, if no video is choose the webcam will be used.
