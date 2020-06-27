@@ -15,3 +15,12 @@ here we go:
 2. (Detecto)[https://github.com/alankbi/detecto] is being used for both the training and inference part. Its a new package which makes the inference and training really intuitive/simple.
 
 So if you want to train an object detection model creating your own custom dataset i recommend this two repo.
+
+## Model
+
+The model is still in construction, so i will be updating this section depending on the training process and after de dataset is finish i will be providing also it!
+
+The Pokemons are from the first generation and the ones supported are:
+` ['Abra','Pikachu','Alakazam','Aerodactyl','Charizard','Bellsprout','Jiglypuff','Kadabra','Charmeleon','Dragonite','Raichu','Magmar','Jigglypuff','Eevee'\
+    ,'Vaporeon','Jolteon','Grownlithe','Arcanine','Articuno','Arbok','Ekans','Flareon','Ditto'] `
+
