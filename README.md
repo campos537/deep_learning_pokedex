@@ -22,6 +22,8 @@ So if you want to train an object detection model creating your own custom datas
 
 The model is still in construction, so i will be updating this section depending on the training process and after de dataset is finish i will be providing also it!
 
+Architecture: Faster R-CNN ResNet-50 FPN
+
 The Pokemons are from the first generation and the ones supported are:
 ` ['Abra','Pikachu','Alakazam','Aerodactyl','Charizard','Bellsprout','Jiglypuff','Kadabra','Charmeleon','Dragonite','Raichu','Magmar','Jigglypuff','Eevee'\
     ,'Vaporeon','Jolteon','Grownlithe','Arcanine','Articuno','Arbok','Ekans','Flareon','Ditto'] `
@@ -40,3 +42,6 @@ python pokedex.py
 ```
 
 After that just choose a video (also works with images) and click on the pokeball icon, if no video is choose the webcam will be used.
+Watch a demonstration in the video below:
+
+https://www.youtube.com/watch?v=3pPhQQ-SqIU
