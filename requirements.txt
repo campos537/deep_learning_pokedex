@@ -1,0 +1,4 @@
+pandas
+opencv-python
+Pillow
+detecto

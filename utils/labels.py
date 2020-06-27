@@ -1,0 +1,2 @@
+labels = ['Abra','Pikachu','Alakazam','Aerodactyl','Charizard','Bellsprout','Jiglypuff','Kadabra','Charmeleon','Dragonite','Raichu','Magmar','Jigglypuff','Eevee'\
+    ,'Vaporeon','Jolteon','Grownlithe','Arcanine','Articuno','Arbok','Ekans','Flareon','Ditto']
