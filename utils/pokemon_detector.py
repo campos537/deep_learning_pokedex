@@ -21,16 +21,7 @@ class PokemonDetector:
         for label, box, score in zip(*predictions):
             if score < 0.5:
                 continue
-            PokemonDetector.draw_pokemon_detected(self, frame , label, box)
-            # # Create the box around each object detected
-            # # Parameters: frame, (start_x, start_y), (end_x, end_y), (r, g, b), thickness
-            # cv2.rectangle(frame, (box[0], box[1]),
-            #               (box[2], box[3]), (255, 0, 0), 3)
-
-            # # Write the label and score for the boxes
-            # # Parameters: frame, text, (start_x, start_y), font, font scale, (r, g, b), thickness
-            # cv2.putText(frame, '{}: {}'.format(label, round(score.item(), 2)), (box[0], box[1] - 10),
-            #             cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 3)
+            PokemonDetector.draw_pokemon_detected(self, frame , label, box)W
 
     def draw_pokemon_detected(self, frame, label, box):
         width_perc = (box[2] - box[0])*0.5
